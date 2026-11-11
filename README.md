@@ -75,24 +75,9 @@ node tests/test_js.js
 
 Generator uses ReportLab for layout and pypdf for JavaScript, push-button widgets and calculation order. Source of truth is the generator plus document.js. Tests inspect PDF fields/actions and mock database persistence to test HTTP validation. Node tests use mock Acrobat objects, not the actual Acrobat runtime. CI repeats these checks on push. Real PostgreSQL and Acrobat submission require the local smoke test above.
 
-## Publish to GitHub
-
-Create an empty public repository named hrflow-adobe-multipage-forms at https://github.com/new. From this directory:
-
-```sh
-git init
-git add .
-git commit -m 'Build five-page Adobe AcroForms onboarding demo'
-git branch -M main
-git remote add origin https://github.com/anisur-rahman/hrflow-adobe-multipage-forms.git
-git push -u origin main
-```
-
-Never commit filled PDFs, real employee data or .env. Add screenshots using synthetic data after testing. Check Actions for CI results.
-
 ## Accessibility and security
 
-See docs/accessibility-checklist.md. PDF includes field tooltips and English language metadata but is not fully tagged or certified Section 508 compliant. Test and remediate in Acrobat Pro. JAWS requires Windows; VoiceOver on Mac is an initial check. Local HTTP only; production requires HTTPS, authentication, authorization, audit logging, data retention and privacy controls. No actual payroll or benefits rules. The static remote-location label remains visible when the field is hidden. Browser viewers may ignore Acrobat JavaScript. Do not disable global Acrobat security settings.
+See docs/accessibility-checklist.md. PDF includes field tooltips and English language metadata but is not fully tagged or certified Section 508 compliant. Test and remediate in Acrobat Pro. JAWS requires Windows; VoiceOver on Mac is an initial check. Local HTTP only; production requires HTTPS, authentication, authorization, audit logging, data retention and privacy controls. No actual payroll or benefits rules. The static remote-location label remains visible when the field is hidden. Browser viewers may ignore Acrobat JavaScript. Do not disable global Acrobat security settings. Never commit filled PDFs, real employee data or .env.
 
 ## Stop
 
