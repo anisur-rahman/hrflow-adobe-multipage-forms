@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HRFlow Onboarding</title>
+<style>
+  :root {
+    --bg: #eef2f6; --card: #ffffff; --ink: #17365d; --muted: #526579;
+    --line: #8095aa; --field: #f3f7fb; --accent: #17365d; --accent-ink: #ffffff;
+    --error: #b42318; --error-bg: #fef3f2; --ok: #067647; --ok-bg: #ecfdf3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1722; --card: #17212e; --ink: #dbe6f3; --muted: #9fb0c3;
+      --line: #4a5d73; --field: #1e2a39; --accent: #5b8fd1; --accent-ink: #0f1722;
+      --error: #f97066; --error-bg: #2d1615; --ok: #47cd89; --ok-bg: #0f2a1d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  header { background: #17365d; color: #fff; padding: 24px 16px; }
+  header .wrap, main { max-width: 720px; margin: 0 auto; }
+  header h1 { margin: 0; font-size: 26px; }
+  header p { margin: 4px 0 0; opacity: .85; }
+  main { padding: 24px 16px 48px; }
+  ol.steps { display: flex; gap: 6px; list-style: none; padding: 0; margin: 0 0 20px; }
+  ol.steps li { flex: 1; height: 6px; border-radius: 3px; background: var(--line); opacity: .35; }
+  ol.steps li.done, ol.steps li.current { background: var(--accent); opacity: 1; }
+  .card { background: var(--card); border-radius: 10px; padding: 24px; box-shadow: 0 1px 3px rgb(0 0 0 / .12); }
+  fieldset { border: 0; margin: 0; padding: 0; }
+  legend { font-size: 22px; font-weight: 700; padding: 0; }
+  .meta { color: var(--muted); font-size: 14px; margin: 4px 0 20px; }
+  .field { margin-bottom: 16px; }
+  label { display: block; font-weight: 600; margin-bottom: 4px; }
+  .req { color: var(--error); }
+  input[type=text], input[type=email], input[type=tel], input[type=date], input[type=number], select, textarea {
+    width: 100%; padding: 10px; font: inherit; color: var(--ink);
+    background: var(--field); border: 1px solid var(--line); border-radius: 6px;
+  }
+  input[readonly] { opacity: .8; border-style: dashed; }
+  input:focus-visible, select:focus-visible, textarea:focus-visible, button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  [aria-invalid=true] { border-color: var(--error); }
+  .check { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; }
+  .check input { width: 20px; height: 20px; }
+  .check label { margin: 0; font-weight: 500; }
+  .err { color: var(--error); font-size: 14px; margin-top: 4px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+  @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }
+  dl.review { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0 0 20px; }
+  dl.review dt { color: var(--muted); }
+  dl.review dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+  .nav { display: flex; gap: 12px; margin-top: 24px; flex-wrap: wrap; }
+  .nav .spacer { flex: 1; }
+  button { font: inherit; font-weight: 700; padding: 10px 22px; border-radius: 6px; cursor: pointer; border: 1px solid var(--accent); }
+  button.primary { background: var(--accent); color: var(--accent-ink); }
+  button.secondary { background: transparent; color: var(--ink); }
+  button:disabled { opacity: .6; cursor: progress; }
+  .banner { padding: 12px 14px; border-radius: 6px; margin-bottom: 16px; }
+  .banner.error { background: var(--error-bg); color: var(--error); }
+  .banner.ok { background: var(--ok-bg); color: var(--ok); }
+  [hidden] { display: none !important; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 16px; }
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>HRFlow</h1><p>Employee onboarding · Training demonstration</p></div></header>
+<main>
+  <ol class="steps" aria-hidden="true"><li></li><li></li><li></li><li></li><li></li></ol>
+  <div id="banner" class="banner" role="alert" hidden></div>
+
+  <form id="form" class="card" novalidate>
+    <fieldset data-page="0">
+      <legend>Personal information</legend>
+      <p class="meta">Step 1 of 5 · <span class="req">*</span> Required · Synthetic data only</p>
+      <div class="grid">
+        <div class="field"><label for="first_name">First name <span class="req">*</span></label><input type="text" id="first_name" name="first_name" maxlength="100" required autocomplete="given-name"></div>
+        <div class="field"><label for="last_name">Last name <span class="req">*</span></label><input type="text" id="last_name" name="last_name" maxlength="100" required autocomplete="family-name"></div>
+      </div>
+      <div class="field"><label for="email">Email <span class="req">*</span></label><input type="email" id="email" name="email" required autocomplete="email"></div>
+      <div class="field"><label for="phone">Phone <span class="req">*</span></label><input type="tel" id="phone" name="phone" maxlength="30" required autocomplete="tel"></div>
+      <div class="field"><label for="address">Street address</label><input type="text" id="address" name="address" autocomplete="street-address"></div>
+      <div class="grid">
+        <div class="field"><label for="city">City</label><input type="text" id="city" name="city" autocomplete="address-level2"></div>
+        <div class="field"><label for="state">State</label><input type="text" id="state" name="state" autocomplete="address-level1"></div>
+      </div>
+      <div class="field"><label for="zip_code">ZIP code</label><input type="text" id="zip_code" name="zip_code" autocomplete="postal-code"></div>
+    </fieldset>
+
+    <fieldset data-page="1" hidden>
+      <legend>Employment information</legend>
+      <p class="meta">Step 2 of 5 · <span class="req">*</span> Required</p>
+      <div class="field"><label for="department">Department <span class="req">*</span></label>
+        <select id="department" name="department" required><option value="">Select</option><option>IT</option><option>HR</option><option>Finance</option><option>Operations</option></select></div>
+      <div class="field"><label for="job_title">Job title <span class="req">*</span></label><input type="text" id="job_title" name="job_title" maxlength="150" required></div>
+      <div class="field"><label for="start_date">Start date <span class="req">*</span></label><input type="date" id="start_date" name="start_date" required></div>
+      <div class="field"><label for="employment_type">Employment type <span class="req">*</span></label>
+        <select id="employment_type" name="employment_type" required><option value="">Select</option><option>Full-time</option><option>Part-time</option><option>Contractor</option></select></div>
+      <div class="grid">
+        <div class="field"><label for="annual_salary">Annual salary (USD) <span class="req">*</span></label><input type="number" id="annual_salary" name="annual_salary" min="0.01" max="9999999999.99" step="0.01" inputmode="decimal" required></div>
+        <div class="field"><label for="monthly_salary">Monthly salary (calculated)</label><input type="text" id="monthly_salary" readonly tabindex="-1"></div>
+      </div>
+      <div class="field"><label for="remote_employee">Remote employee? <span class="req">*</span></label>
+        <select id="remote_employee" name="remote_employee"><option>No</option><option>Yes</option></select></div>
+      <div class="field" id="remote_location_wrap" hidden><label for="remote_location">Remote location <span class="req">*</span></label><input type="text" id="remote_location" name="remote_location"></div>
+    </fieldset>
+
+    <fieldset data-page="2" hidden>
+      <legend>Benefits enrollment</legend>
+      <p class="meta">Step 3 of 5 · <span class="req">*</span> Required</p>
+      <div class="field"><label for="health_plan">Health plan <span class="req">*</span></label>
+        <select id="health_plan" name="health_plan" required><option value="">Select</option><option>Individual</option><option>Family</option><option>Waive</option></select></div>
+      <div class="check"><input type="checkbox" id="dental" name="dental"><label for="dental">Dental coverage</label></div>
+      <div class="check"><input type="checkbox" id="vision" name="vision"><label for="vision">Vision coverage</label></div>
+      <div class="grid">
+        <div class="field"><label for="retirement_percent">Retirement contribution (%) <span class="req">*</span></label><input type="number" id="retirement_percent" name="retirement_percent" min="0" max="100" step="0.01" inputmode="decimal" required></div>
+        <div class="field"><label for="retirement_monthly">Monthly retirement (calculated)</label><input type="text" id="retirement_monthly" readonly tabindex="-1"></div>
+      </div>
+    </fieldset>
+
+    <fieldset data-page="3" hidden>
+      <legend>Emergency contact</legend>
+      <p class="meta">Step 4 of 5 · <span class="req">*</span> Required</p>
+      <div class="field"><label for="emergency_name">Contact name <span class="req">*</span></label><input type="text" id="emergency_name" name="emergency_name" maxlength="200" required></div>
+      <div class="field"><label for="emergency_relationship">Relationship <span class="req">*</span></label>
+        <select id="emergency_relationship" name="emergency_relationship" required><option value="">Select</option><option>Spouse</option><option>Parent</option><option>Sibling</option><option>Friend</option><option>Other</option></select></div>
+      <div class="field"><label for="emergency_phone">Contact phone <span class="req">*</span></label><input type="tel" id="emergency_phone" name="emergency_phone" maxlength="30" required></div>
+      <div class="field"><label for="emergency_notes">Additional notes</label><textarea id="emergency_notes" name="emergency_notes" rows="3"></textarea></div>
+    </fieldset>
+
+    <fieldset data-page="4" hidden>
+      <legend>Review and submit</legend>
+      <p class="meta">Step 5 of 5 · Check your details, then acknowledge and submit</p>
+      <dl class="review" id="review"></dl>
+      <div class="field"><label for="employee_name">Type your name to acknowledge <span class="req">*</span></label><input type="text" id="employee_name" name="employee_name" maxlength="200" required></div>
+      <div class="check"><input type="checkbox" id="acknowledged" name="acknowledged" required><label for="acknowledged">I certify the information is accurate <span class="req">*</span></label></div>
+    </fieldset>
+
+    <div class="nav">
+      <button type="button" class="secondary" id="prev">Previous</button>
+      <button type="button" class="secondary" id="reset" hidden>Reset</button>
+      <span class="spacer"></span>
+      <button type="button" class="primary" id="next">Next</button>
+      <button type="submit" class="primary" id="submit" hidden>Submit</button>
+    </div>
+  </form>
+
+  <section id="done" class="card" hidden>
+    <div class="banner ok" role="status" id="done-msg"></div>
+    <button type="button" class="primary" id="again">Start a new form</button>
+  </section>
+  <footer>HR-002 · v1.0 · Local demo only — use fictional data</footer>
+</main>
+
+<script>
+(() => {
+  const form = document.getElementById('form');
+  const pages = [...form.querySelectorAll('fieldset[data-page]')];
+  const steps = [...document.querySelectorAll('ol.steps li')];
+  const banner = document.getElementById('banner');
+  const $ = id => document.getElementById(id);
+  const val = id => $(id).value.trim();
+  let current = 0;
+
+  // ---------- Display helpers ----------
+  function showBanner(msg) { banner.textContent = msg; banner.className = 'banner error'; banner.hidden = !msg; }
+
+  function clearErrors() {
+    form.querySelectorAll('.err').forEach(e => e.remove());
+    form.querySelectorAll('[aria-invalid]').forEach(e => e.removeAttribute('aria-invalid'));
+    showBanner('');
+  }
+
+  function fieldError(id, msg) {
+    const input = $(id);
+    const err = document.createElement('div');
+    err.className = 'err';
+    err.id = id + '_err';
+    err.textContent = msg;
+    input.setAttribute('aria-invalid', 'true');
+    input.setAttribute('aria-describedby', err.id);
+    input.closest('.field, .check').appendChild(err);
+  }
+
+  function pageOf(id) { const el = $(id); const fs = el && el.closest('fieldset[data-page]'); return fs ? Number(fs.dataset.page) : 0; }
+
+  function goTo(p) {
+    current = p;
+    pages.forEach((fs, i) => { fs.hidden = i !== p; });
+    steps.forEach((li, i) => { li.className = i < p ? 'done' : i === p ? 'current' : ''; });
+    $('prev').hidden = p === 0;
+    $('next').hidden = p === pages.length - 1;
+    $('submit').hidden = $('reset').hidden = p !== pages.length - 1;
+    calc();
+    pages[p].querySelector('legend').scrollIntoView({ block: 'start', behavior: 'smooth' });
+  }
+
+  // ---------- Calculations (same rules as javascript/document.js) ----------
+  function money(n) { return n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
+
+  function calc() {
+    const a = Number(val('annual_salary')), r = Number(val('retirement_percent'));
+    const validR = val('retirement_percent') !== '' && r >= 0 && r <= 100;
+    $('monthly_salary').value = a > 0 ? money(a / 12) : '';
+    $('retirement_monthly').value = a > 0 && validR ? money(a / 12 * r / 100) : '';
+    const rows = [
+      ['Employee name', `${val('first_name')} ${val('last_name')}`],
+      ['Email', val('email')],
+      ['Department', val('department')],
+      ['Job title', val('job_title')],
+      ['Start date', val('start_date')],
+      ['Annual salary', a > 0 ? '$' + money(a) : ''],
+      ['Remote', val('remote_employee') === 'Yes' ? `Yes — ${val('remote_location')}` : 'No'],
+      ['Health plan', val('health_plan')],
+      ['Retirement', validR ? `${r}% ($${$('retirement_monthly').value || '0.00'}/month)` : ''],
+      ['Emergency contact', val('emergency_name') && `${val('emergency_name')} (${val('emergency_relationship')})`],
+    ];
+    const dl = $('review');
+    dl.replaceChildren();
+    for (const [k, v] of rows) {
+      const dt = document.createElement('dt'); dt.textContent = k;
+      const dd = document.createElement('dd'); dd.textContent = v || '—';
+      dl.append(dt, dd);
+    }
+  }
+
+  function toggleRemote() {
+    const yes = $('remote_employee').value === 'Yes';
+    $('remote_location_wrap').hidden = !yes;
+    $('remote_location').required = yes;
+    if (!yes) $('remote_location').value = '';
+  }
+
+  // ---------- Validation (same rules as javascript/document.js) ----------
+  const LABELS = {};
+  form.querySelectorAll('label[for]').forEach(l => { LABELS[l.htmlFor] = l.textContent.replace('*', '').trim(); });
+
+  function validatePage(p) {
+    const errors = [];
+    pages[p].querySelectorAll('[required]').forEach(el => {
+      const empty = el.type === 'checkbox' ? !el.checked : !el.value.trim();
+      if (empty && !el.closest('[hidden]')) errors.push([el.id, el.id === 'acknowledged' ? 'Confirm acknowledgment.' : `${LABELS[el.id]} is required.`]);
+    });
+    const has = id => errors.some(e => e[0] === id);
+    if (p === 0 && !has('email') && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val('email'))) errors.push(['email', 'Enter a valid email.']);
+    if (p === 1) {
+      const s = Number(val('annual_salary'));
+      if (!has('annual_salary') && (!isFinite(s) || s <= 0 || s > 9999999999.99)) errors.push(['annual_salary', 'Enter a positive salary within 10 digits.']);
+      if (!has('start_date') && !/^\d{4}-\d{2}-\d{2}$/.test(val('start_date'))) errors.push(['start_date', 'Use a valid date.']);
+    }
+    if (p === 2) {
+      const r = Number(val('retirement_percent'));
+      if (!has('retirement_percent') && (!isFinite(r) || r < 0 || r > 100)) errors.push(['retirement_percent', 'Enter 0 to 100.']);
+    }
+    return errors;
+  }
+
+  function report(errors) {
+    clearErrors();
+    if (!errors.length) return true;
+    errors.forEach(([id, msg]) => fieldError(id, msg));
+    showBanner(`Please fix ${errors.length} ${errors.length === 1 ? 'field' : 'fields'} on this page.`);
+    $(errors[0][0]).focus();
+    return false;
+  }
+
+  // ---------- Submit ----------
+  function payload() {
+    const body = new URLSearchParams();
+    form.querySelectorAll('[name]').forEach(el => {
+      body.append(el.name, el.type === 'checkbox' ? (el.checked ? 'Yes' : 'Off') : el.value.trim());
+    });
+    return body;
+  }
+
+  function showServerErrors(detail) {
+    clearErrors();
+    const general = [];
+    let firstPage = null, firstId = null;
+    for (const e of detail) {
+      const id = e.loc && e.loc[e.loc.length - 1];
+      if (id && $(id) && id !== 'body') {
+        fieldError(id, e.msg.replace(/^Value error, /, ''));
+        if (firstPage === null || pageOf(id) < firstPage) { firstPage = pageOf(id); firstId = id; }
+      } else {
+        general.push(e.msg.replace(/^Value error, /, ''));
+      }
+    }
+    if (firstPage !== null) goTo(firstPage);
+    showBanner('The server rejected the submission. ' + (general.join(' ') || 'Please fix the highlighted fields.'));
+    if (firstId) $(firstId).focus();
+  }
+
+  form.addEventListener('submit', async ev => {
+    ev.preventDefault();
+    calc();
+    for (let p = 0; p < pages.length; p++) {
+      const errors = validatePage(p);
+      if (errors.length) { goTo(p); report(errors); return; }
+    }
+    clearErrors();
+    const btn = $('submit');
+    btn.disabled = true; btn.textContent = 'Submitting…';
+    try {
+      const res = await fetch('/submit', { method: 'POST', body: payload() });
+      const data = await res.json().catch(() => ({}));
+      if (res.status === 201) {
+        form.hidden = true;
+        document.querySelector('ol.steps').hidden = true;
+        $('done').hidden = false;
+        $('done-msg').textContent = `Saved. Employee ID ${data.employee_id}.`;
+        $('again').focus();
+      } else if (res.status === 409) {
+        goTo(0); clearErrors(); fieldError('email', data.detail || 'Email already exists.');
+        showBanner('An employee with this email already exists.'); $('email').focus();
+      } else if (res.status === 422 && Array.isArray(data.detail)) {
+        showServerErrors(data.detail);
+      } else {
+        showBanner(data.detail || `Submission failed (HTTP ${res.status}).`);
+      }
+    } catch {
+      showBanner('Could not reach the server. Is the API running?');
+    } finally {
+      btn.disabled = false; btn.textContent = 'Submit';
+    }
+  });
+
+  // ---------- Wiring ----------
+  $('next').addEventListener('click', () => { if (report(validatePage(current))) goTo(current + 1); });
+  $('prev').addEventListener('click', () => { clearErrors(); goTo(current - 1); });
+  $('reset').addEventListener('click', () => {
+    if (!confirm('Clear every field and start over?')) return;
+    form.reset(); toggleRemote(); clearErrors(); goTo(0);
+  });
+  $('again').addEventListener('click', () => {
+    form.reset(); toggleRemote(); clearErrors();
+    form.hidden = false; document.querySelector('ol.steps').hidden = false; $('done').hidden = true; goTo(0);
+  });
+  $('remote_employee').addEventListener('change', toggleRemote);
+  form.addEventListener('input', calc);
+
+  toggleRemote();
+  goTo(0);
+})();
+</script>
+</body>
+</html>
