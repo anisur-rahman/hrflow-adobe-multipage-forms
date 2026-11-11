@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Lets `pytest` (not just `python -m pytest`) import the backend package.
+pythonpath = ["."]
+testpaths = ["tests"]

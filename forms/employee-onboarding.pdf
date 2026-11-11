@@ -8,7 +8,7 @@
 /Type /Catalog
 /Names <<
 /JavaScript <<
-/Names [ (6c0ccce1\0550bca\0554017\055bdd8\055fb238b8ce1a1) 112 0 R ]
+/Names [ (6aaf1ba2\055865d\0554728\055a79f\0552176a74d8f1c) 112 0 R ]
 >>
 >>
 /Lang (en\055US)
@@ -527,10 +527,10 @@ endobj
 29 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 640
+/Length 516
 >>
 stream
-Gau1+9omaW&;KZL'm#%#G\tKEi[^rB8/5+93H6j3]+%AKE6Um!IQV*f'iidiJJ8g+)(.5d]OOGb",[o<s6U*]\q.I&"3.%f!u"'fZ\<O#&?72.$4(:G;A)O"6q%iDa228adeL^(7QCSZqc/1U]^U%jEo8\b902\6.@XNL%[Euc)<&Qhqp"&K]S,E'1oiY(VOX]-c>r`,r%e&2[G]jgDaN'f7t<[O-CEYd7;#-ZN\QpRH[!m"RH`#f=]3$]iAVK"8[F#>%7fm2!57.a0OFK6O$iLu:S>i:p!BdapuK<s,eu'`(#7QIhtg`m]R2]LGd+GkTek*S`5Ci3#%Dj#<^&AP;d%):&'"t$N##GenthlO>Ou4k6EBp?0`A40\t%-ZK6I^(/uo<W&;.A&9\0Gp4>,>r51VZ@>kE*rnuUV7]-Ncg#PmoG%U.cg-/0.9*CU;P$]/dU(bhmZV*nM.MLnf\j%8B06X-@ZAgoA:jchfme<l".]X8W9_17*X"C)3H3g\ohjZK-M_\>ehc6Y7-AUSE8-uPF6Z[Sf4dCMfjaW'j.rf!25;K=+L`m)kf<](Fc$2FhN5\Dhup$Hh%B-2RkdE.TuHtS,p@-_%h[H+"4AoiNbOqWC.134;DYIqr0i]#4&D`.~>
+Gau1+;/=o?'SYH9/'d/nR&_`AEr=XRcpD-6dF6t%=D9p7Bp5ra^jc2l`F3IO$NgoJA')=>4U:4X!fM]ZHe/:B$F_MeEMu%!a9nk'Q>2_jMGY[^EM?><A@X6`-K1S02MT@(4u%j1LH!l3B9<crr1/W`>R\Q@NP)bnA*SZ@/4uiN+7:4PXo!5CobD4*DS%C],+MR=?Zt=1G;'6H4ur#r`]aL6JF^:V_k]2]Z[M=(1sV\hH,n`44q.k/aS8a=;Qus)@smaHDUI+MoA*uLP9#tU]Re4dW3'6@il^F!"Rm@tj3`8Sd<JTfl1SN&M[@W<[155YD@cbXLlrq(h_ISTWE;$l&$WW$Qqtg?ilGKms+2mR3Sk%tZkK5+,C8t@m)5pqnqc-,DbP\aCN'&udL>0@IVQ`qf7f-HEZNAg?lBRHbJONG=2/5-S:msfZ]_Cp+=kT$r,"HI.ZmlB\1W%][[`C02Q`[KIT"26a4foi#nP;?ZEDIa6L_'Ya:j><UCh-#1&D&cs#9$~>
 endstream
 endobj
 30 0 obj
@@ -883,7 +883,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (var a\075Number\050val\050this\054\047annual\137salary\047\051\051\073event\056value\075a\0760\077\050a\05712\051\056toFixed\0502\051\072\047\047\073)
+/JS (event\056value \075 monthlySalary\050this\051\073)
 >>
 >>
 >>
@@ -949,7 +949,7 @@ endobj
 /AA <<
 /V <<
 /S /JavaScript
-/JS (remote\050this\054event\056value\051\073)
+/JS (toggleRemoteLocation\050this\054 event\056value\051\073)
 >>
 >>
 >>
@@ -1046,10 +1046,10 @@ endobj
 56 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 779
+/Length 580
 >>
 stream
-Gatn$;/_pX&BE]('_g6JMJF0c^sfY>M5I9.We<Q8apTLjb@D_?Ug'XCpmiE2/4us\+t2CUkPsB<LTq^n4IH"?F+@%@>gF9A%e0aj+9LOAR)L,?&S7(+_AN`G"QCpD:^,C5=5Zmii>2_Rb+[7f)1/<5#MsW]*4WA55&Kr]?e1GW*!-^;SAWn?`S?\B7hC0*Ghf*#D!,UoB5[JqhjX,/23c'iR8iLRGQPAZLoVdOm)</kA[/;:Us@,W=69s9D>VP#^a7qU4&D+63llG@6WS$G.R1,d)PYO(.q8KTC`1ReJA\iV8:]Rt@p%q:qlJ4]GI]gMos:g-'\5jHTP&?@-VMZd@fC//QuZJ+oerdaB5'K(^6D.d0BFG.=`*f8nfg-;05Kq2'%4"qHGIkfp3&3^Y!rM[o@<X>W"7X64o)q!aN(%--O+aN8ZDmH\mGs8a)@RKD2FJ#*4f<f@a_qUSEn^=aF_'m%L[YQnQG,=<W4\R/Je:b`K[?K6.&cBJHrl8YG]7T'h\nT4bbmL0Gjp<:r6PCJ:^aRj.('s"K?$dOP)`8pb&rp&n2p)i$l(FGW)-)DEPqkG*?hhAokK42"#`BdputU@pc50ls3_Hhc`N;8eaGkm)&n9X7T%cmW\->dINAN&)$K7*=pioO=_!rnW4b%H/d3Pl%ntnS=#h>oVlq7rgSh%3/OB6"nPaoWr#V?cD6=/7\j]/!YL!FSMYu?.8pjcT(QNumnG4uS9@n^@>)5M#3Vk'44a5UhNO%a'7iOi*KIb&lt(eC#BqlBAH~>
+Gatn#;/_pX'SYH9/'_W<.F^9.KVrN_&ku<"9aQ6HPSX[%a(.k5S4uQOn[gbK9qugY,d9NNluVT-qd'b%NVd?p!M<9F00-O-\c\"F#jDF,kpTpGj,$)F300=m&?7-j$I-c8dSuLY9p7OMBJamr&SY(:hd0/FaA+I#]cMU`]lbS37krF!GG!J[;u[m`rIK(=&%`_)eTAY+oL6/HFfRB7qcmc.;;)iE*_;d%ZsBTV<G`8La]r!'$_)XmS\sVr"@<=PAct`3M[1eL*D3rES*J_l%)b9T4(@/?Cm-Kc6/_&A')2Q&Ygu%"AYTXjh6ba]f<3=pA1f*=e,C-rpIIDo%uDeY`E_l<`d+B%OSVkHoY8o%E2>@:=SX@*a_r.fhlW![p?md?l"W)HcaVqcm6YrD!*m,XQmmti-6K?QAd4%7A5,^!O.3t2_LD5\2'"I$^3\n/acD1BZe1:n1_fn.=At+*?KjY=57EIhP;b+kc@(9W=1Q545.kG6"d^\^QUJ*'L*2?uq-)6,'(<ekfkmHd?dkm2Wa_="^NdQlb6.PY?]D5;p-M)<&O\Etee(m'jMaZKrW3?j=ZH~>
 endstream
 endobj
 57 0 obj
@@ -1431,7 +1431,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (var a\075Number\050val\050this\054\047annual\137salary\047\051\051\054r\075Number\050val\050this\054\047retirement\137percent\047\051\051\073event\056value\075a\0760\046\046r\076\0750\046\046r\074\075100\077\050a\05712\052r\057100\051\056toFixed\0502\051\072\047\047\073)
+/JS (event\056value \075 monthlyRetirement\050this\051\073)
 >>
 >>
 >>
@@ -1470,10 +1470,10 @@ endobj
 78 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 735
+/Length 535
 >>
 stream
-Gau1,;/b/B&BE]".ILa[+O.;7gIY_PJbIH-'oi(.9,\4LEh"`b2PbcrSXkF%'s5'(.0<kth>QekFq+]j0BU%@'&Y[%Rfro6+l*,36pQ&'o/%RHTe'&+3+J)65XHb@WhA2Q(.2)R*t2VC6`jcQ$SVflpt06?^no3kdOlX@auX7Q+VGB_,tpKU(T.$hL%II&Zd.rI3A860oAT<3fi0?$Ts@Ho<j)nC"h4S(l`@>YB!'8!m[H7QMTUrihWV*qT=G<=,lD*T8lB$4XgWOS1jdTXY)Fg;D(]otI5e??$JS5bl22ShppL//n/Ga>9E!mIe9^M#+&98tl))O1SM_9CCefK1&+fb(n?m_4C,\OnVV/elaXkZ=.3N1Pn-KD4#4h&XlYNW*.3XjTij%.rDZ:f8Ya&>M:=S"b2Tj[L/tNR@KY_Eo@5Y_N\1hYD^S&ltSFCAW9<T[fB(CSr)SKHOh^<.@I.a:c119kW%>.,<+sl"RM^V+b34A(r"S0>G0lqfh#eb!q&u-PG_'O;NEA`:Y4s"RB^@QOaF$AC@1k':Q3cEMclcOicE+,3J2%X4h'V6qY_f<8kos(G*qfh)aH,uS4*-fPUL[9<-Sqe;1aFT+/o,)ud6q0_m9[6JS<!FoRbXEeI,Y?dDq5Sq(B+kS3P:Aj8M5!iU6ps?OW>QsF1F;S1A'*bKJ:FBi(Z6XiOV-l<]*aUq+2'>Je0p$8S-UCgjU#pCbE4.TIfS6CJTh~>
+Gau1*;/=o?'SYH9/'c<\$-\ZF99*B&')']"Od\Jq7CAE!6^Bf&km6q%moiJu:sqWQ7G(/>meQ:ue`C0qG^NREE*_I<_8-;t20bEt-uUdm7gU[_0,,&8H*/EU<+S'gn=,Q8:fYk06(A7+KCs=S)DpZ%<"onL=%q:EO1t003YTT@*+b&upZ988IjQRnTq!15SPA9A\DT)hhEKZ]?jo*jctQiGD?F,EV:U^m(U[s=[gQMtVK4,Ps1!DITD'3/R>A0e.*5p&f>a5$'6Z(TGLj4BKemUKFRtMj3[igLo:JQn]7:$UJLQoIpV-0pNm#%e$X4:5$FLA4%,8[Tr:&p*VsjH?C++nc2Jhns[DVX"!%A/g2``+!;0>[Sl]&G#+tEl9IC#\`Ih!YC&50$V2gr(?j+;1jpAGH<CA_X#\a7//q1/B/S?4qN\%SM;j%A'@Dfmc,C2sYU"dc53=J8h\6^$Q!r7@GY77=FlFquN=a6*<BW4i)_pV[^\-T<%h@p?X[JgV1/MBn[j(S-do;P*6nkV"AI'2&~>
 endstream
 endobj
 79 0 obj
@@ -1733,10 +1733,10 @@ endobj
 92 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 674
+/Length 472
 >>
 stream
-Gatn#;/_pX&BE]('_f++RVNk7_2m?8BFiWoV0i:JDScN',IC[NIJB?B"BqX%2cY\/*:EfMpVWL$:6u7$70E$.K<'t3+X+H"TpUGu)V/'0\Db;<?rDeK,Ht:NKPTdpOeY`ikb]K=-$0pj<Y9&m7?<(q"GpG>k+a!r/&p(26D>+6)L2!f];aOlmihQ/fkPW@=O*+L.73g@3RmH<>%lad2Xef2m/X9hZ7`>NhitQ`h6HG>^1uIJbmW?%jU5FH6maQfTTP9MfPY>-EIsp-I9uO^HJtQaB6<-!k;HQ%J:_\Y5_)'!/(iRJpJkkLYe<31IW,+`J26S7C:?D*;`>nB,N@mt&NWn]H0>96hH3mnAHp'r_q*Dt>o`UhiGCA!o=0Rn^3+ALKSkO!+3Ut\:#n1A[^X</j_tePH;r6ZJf^"NPEE(;/&)Z&#LlFFMI7>N,&a9oqfsCrY#@k`IO%9RiH8k:,Gd^hfi7>%mk*LHUt;]c3i!Y,.JHY?&ac>$hsj@3@`k+9(JAmq/2s,JW7q.#j-Y)L_ujWn3:jqB#>RC#k(,<!4S+qkbX<4;c:lM[Q;hHIs33tMac&e=0OO59j]l2u'W;JW0Ua@<0U4&VV$36ZbZT8^'ZtM;SKBg#?U#PP"QR>.D@8LhIcrp8&ISn5aV5=)FVG9Y>^/U-(Wr:SAH~>
+Gatn";+ne\'SYH=/'an"N4EYcY)b%O4q*Z-J"X5iX0g"8W\X(aRq<D59L0MhV.k"s3?P_s^r)mk0,id&i,V:0!V6S[9Z#".2'^*s:72;"7&a3pM3]UBBNHDp8p(oP:deQ][<N[PJjrl$F&WhbW`MmhTGQJ5?nDO[RDLd?]3WWqs)nnD">_*Z*KBZc>YluD2OiFhXG(j/5&\WeXaj'[[!Cd09kbR8[U#AHQ$3HkJ'`V`V`oZ.9H6d"'d"(@G%Fsa6fD=;(YoZ=*a*s>8bP2<1VJR^h$aX8#KBlukEi3VA_\n^Y$9Y`.T#85*cUH$^M#%D;">P7l'UIBcN':j(?8=S.(+8$fK/_8]<4&iFcb:#L<\Ga'19iODfJdC<=b5DE5&[56]XWsdTOrB1f#K,16q-?/-oC#i,!G`5tm$<\DUf"qTchgj7-RGMr<4ecp-97+JG$-EhYd@A/GMnE"\oV<C6.(~>
 endstream
 endobj
 93 0 obj
@@ -1785,7 +1785,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (event\056value\075val\050this\054\047first\137name\047\051\053\047 \047\053val\050this\054\047last\137name\047\051\073)
+/JS (event\056value \075 reviewName\050this\051\073)
 >>
 >>
 >>
@@ -1850,7 +1850,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (event\056value\075val\050this\054\047email\047\051\073)
+/JS (event\056value \075 fieldValue\050this\054 \047email\047\051\073)
 >>
 >>
 >>
@@ -1915,7 +1915,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (event\056value\075val\050this\054\047department\047\051\073)
+/JS (event\056value \075 fieldValue\050this\054 \047department\047\051\073)
 >>
 >>
 >>
@@ -1980,7 +1980,7 @@ endobj
 /AA <<
 /C <<
 /S /JavaScript
-/JS (event\056value\075val\050this\054\047annual\137salary\047\051\073)
+/JS (event\056value \075 fieldValue\050this\054 \047annual\137salary\047\051\073)
 >>
 >>
 >>
@@ -2117,19 +2117,19 @@ endobj
 110 0 obj
 <<
 /Filter [ /ASCII85Decode /FlateDecode ]
-/Length 832
+/Length 539
 >>
 stream
-Gatm9D/Ymt&H9tY\;sji;88ZQO.4^8P:E\,q#cj@/K:(;OB.M;j*.qOaJ-',WX&bMiU47gLW;RgN%XPeFU.E4KSq>j>X5h(Y#5Gb2-cG=apQ,r%B88Jdg2r&.UsBOqnuC20'GekS-^#@X;;1Ocpb-$U&]`S;6gLhroI'n,p6,(PT>/H[_-APkDrI=KQ8fXSLiqP>]:d6ffceBc5>d4?!e&A`ngf&!0fk$=SK$T?#M[^:lS1f&(8,=>qDV[$3[6cA-Em>Y@)(9)Y4B&?,:-"f/;TF?C:3C"WSD!DTg3B5ko=f2u!KZJ>N(TD$I?;O1.245+&US@9&:%[G1-KWuLK=iUWg_\Ghgj>BT(u#nUTuWbKccXGR#UeN?mMfGQcB'jV%9cdm!7(,f/s%;-tnAg'INHShtm[tA<7`ZD/VQgLDLZar*"3,?\$>CVF^$tHX#!@\Bp]C(I"D\HeBPeGr%VKm5tS'ZmZ"^T"0"W8m0=dj'd*dG[)FXi2AD\c.scH*QfF,'=i0dJ,2Jt]#a\?r]$;Eg[gl='7-(3_sZ@CCUoBdRc@*U9YgLZHAkp"D-aZW*-'W=Hu"bs35]heq:CLCb<tO@f^@Ur(3.<-^%ERuS"lGWrbPqMQN-o94_9#ODa/6:=:rfMh!.mep61`>]t'$pj'3n)Qpa8((R/@[:V9hRM`>,Z,j)<J%PLE)m97Q!dPtc76Y5-+I$u/<a3a#=@)oAM9<9Xit7"[ouak`6)C=\&YftQ%Gb`LlOg./;I29$>4;fKu[e>IWEnpHlA?D(_'_/&Y=6i]Q)cZF>UNoG<?WN+:puAS5KCudZDBL:ItHd(qe&6~>
+Gatn#d>H[4&4PLJ(&+sBe18Y,*'^kgTnS2dXF<EM/#c]V8elW(Tc[WEEG-8rKn9mPQE</kmT<s+&dM-Ph#STC*]=^s61.!rXFP]:=tVR.&R#KON7(UCA@X*\,2i2')ad%/Y8BY6K@ea-(Qf;"I%?'%N/toI9YC.b:=9;5=d5!ghL+$p>'G9#q&OK9D7c:_9fSmsI,,fH2eWY5T:PP4Z$YC0OBred/fNP+HOO3aj6W&T5MTPmVdfpiBC'L?Js2G8<kfK"K!GiGrGuVg*A8[`H%hHS3DX\o'c^R=EPaA:M66d1)m>a<Hl?hrVLtkqW1]m@G5*^L1qB=UCMp*G]:N&GH;4Ld0*9;'F+T>8%0!19b(iaH0Io:Ne)+BaWtn4U.R._-oC=FTLP*V)HCl[Ji1T?Wet$"#lnt*88l":?1MZ<0faW`b$c_V)mo#Xj*2@i9a/6D0c5G`<MNX5IjU,-f(AptO;cH>UA?3>ZCc/Wu3td#]j/IL$)+ccJY)_TaS+ZJg?QhCA=g8SU%ZcUpYBFCF)o2.nB)~>
 endstream
 endobj
 111 0 obj
 <<
 /Author (anonymous)
-/CreationDate (D\07220261111004050\05300\04700\047)
+/CreationDate (D\07220261110215645\05505\04700\047)
 /Creator (anonymous)
 /Keywords ()
-/ModDate (D\07220261111004050\05300\04700\047)
+/ModDate (D\07220261110215645\05505\04700\047)
 /Producer (ReportLab PDF Library \055 \050opensource\051)
 /Subject (unspecified)
 /Title (HRFlow \174 Employee onboarding)
@@ -2140,7 +2140,7 @@ endobj
 <<
 /Type /Action
 /S /JavaScript
-/JS (function val\050d\054n\051\173return String\050d\056getField\050n\051\056valueAsString\051\056replace\050\057\136\134s\053\174\134s\053\044\057g\054\047\047\051\073\175\012var requiredPages\075\133\133\047first\137name\047\054\047last\137name\047\054\047email\047\054\047phone\047\135\054\133\047department\047\054\047job\137title\047\054\047start\137date\047\054\047employment\137type\047\054\047annual\137salary\047\054\047remote\137employee\047\135\054\133\047health\137plan\047\054\047retirement\137percent\047\135\054\133\047emergency\137name\047\054\047emergency\137relationship\047\054\047emergency\137phone\047\135\054\133\047employee\137name\047\135\135\073\012function errorField\050d\054n\054msg\051\173app\056alert\050msg\051\073d\056getField\050n\051\056setFocus\050\051\073return false\073\175\012function validatePage\050d\054p\051\173var a\075requiredPages\133p\135\073for\050var i\0750\073i\074a\056length\073i\053\053\051\173if\050\041val\050d\054a\133i\135\051\174\174val\050d\054a\133i\135\051\075\075\075\047Select\047\051return errorField\050d\054a\133i\135\054\047Complete \047\053a\133i\135\051\073\175\012if\050p\075\075\0750\046\046\041\057\136\133\136\134s\100\135\053\100\133\136\134s\100\135\053\134\056\133\136\134s\100\135\053\044\057\056test\050val\050d\054\047email\047\051\051\051return errorField\050d\054\047email\047\054\047Enter a valid email\056\047\051\073\012if\050p\075\075\0751\051\173var s\075Number\050val\050d\054\047annual\137salary\047\051\051\073if\050\041isFinite\050s\051\174\174s\074\0750\174\174s\0769999999999\05699\051return errorField\050d\054\047annual\137salary\047\054\047Enter a positive salary within 10 digits\056\047\051\073var t\075val\050d\054\047start\137date\047\051\073var m\075\057\136\050\134d\1734\175\051\055\050\134d\1732\175\051\055\050\134d\1732\175\051\044\057\056exec\050t\051\073var dt\075m\077new Date\050Number\050m\1331\135\051\054Number\050m\1332\135\051\0551\054Number\050m\1333\135\051\051\072null\073if\050\041dt\174\174dt\056getFullYear\050\051\041\075\075Number\050m\1331\135\051\174\174dt\056getMonth\050\051\041\075\075Number\050m\1332\135\051\0551\174\174dt\056getDate\050\051\041\075\075Number\050m\1333\135\051\051return errorField\050d\054\047start\137date\047\054\047Use a valid YYYY\055MM\055DD date\056\047\051\073if\050val\050d\054\047remote\137employee\047\051\075\075\075\047Yes\047\046\046\041val\050d\054\047remote\137location\047\051\051return errorField\050d\054\047remote\137location\047\054\047Enter remote location\056\047\051\073\175\012if\050p\075\075\0752\051\173var r\075Number\050val\050d\054\047retirement\137percent\047\051\051\073if\050\041isFinite\050r\051\174\174r\0740\174\174r\076100\051return errorField\050d\054\047retirement\137percent\047\054\047Enter 0 to 100\056\047\051\073\175\012if\050p\075\075\0754\046\046val\050d\054\047acknowledged\047\051\041\075\075\047Yes\047\051return errorField\050d\054\047acknowledged\047\054\047Confirm acknowledgment\056\047\051\073return true\073\175\012function remote\050d\054v\051\173var f\075d\056getField\050\047remote\137location\047\051\073f\056display\075v\075\075\075\047Yes\047\077display\056visible\072display\056hidden\073f\056required\075v\075\075\075\047Yes\047\073if\050v\041\075\075\047Yes\047\051f\056value\075\047\047\073\175\012function calc\050d\051\173var a\075Number\050val\050d\054\047annual\137salary\047\051\051\054r\075Number\050val\050d\054\047retirement\137percent\047\051\051\073d\056getField\050\047monthly\137salary\047\051\056value\075a\0760\077\050a\05712\051\056toFixed\0502\051\072\047\047\073d\056getField\050\047retirement\137monthly\047\051\056value\075a\0760\046\046r\076\0750\046\046r\074\075100\077\050a\05712\052r\057100\051\056toFixed\0502\051\072\047\047\073d\056getField\050\047review\137name\047\051\056value\075val\050d\054\047first\137name\047\051\053\047 \047\053val\050d\054\047last\137name\047\051\073d\056getField\050\047review\137email\047\051\056value\075val\050d\054\047email\047\051\073d\056getField\050\047review\137department\047\051\056value\075val\050d\054\047department\047\051\073d\056getField\050\047review\137salary\047\051\056value\075val\050d\054\047annual\137salary\047\051\073\175\012function nextPage\050d\054p\051\173if\050validatePage\050d\054p\051\051\173calc\050d\051\073d\056pageNum\075p\0531\073\175\175\012function submitAll\050d\051\173for\050var p\0750\073p\0745\073p\053\053\051\173d\056pageNum\075p\073if\050\041validatePage\050d\054p\051\051return\073\175calc\050d\051\073d\056submitForm\050\173cURL\072\047http\072\057\057127\0560\0560\0561\0728000\057submit\047\054cSubmitAs\072\047HTML\047\054bEmpty\072true\175\051\073\175\012function resetAll\050d\051\173d\056resetForm\050\051\073remote\050d\054\047No\047\051\073calc\050d\051\073d\056pageNum\0750\073\175\012)
+/JS (\057\052\012 \052 Document\055level JavaScript for the HRFlow onboarding form\056\012 \052\012 \052 Acrobat runs an older JavaScript engine\054 so this file sticks to ES5\072\012 \052 var instead of let\057const\054 and no arrow functions or template strings\056\012 \052 Page numbers are zero\055based\054 matching Acrobat\047s doc\056pageNum\056\012 \052\057\012\012var PAGE\137COUNT \075 5\073\012var SUBMIT\137URL \075 \047http\072\057\057127\0560\0560\0561\0728000\057submit\047\073\012var MAX\137SALARY \075 9999999999\05699\073 \057\057 NUMERIC\05012\0542\051 in the database\012\012\057\057 Fields that must be filled before leaving each page\056\012var REQUIRED\137FIELDS \075 \133\012  \133\047first\137name\047\054 \047last\137name\047\054 \047email\047\054 \047phone\047\135\054\012  \133\047department\047\054 \047job\137title\047\054 \047start\137date\047\054 \047employment\137type\047\054 \047annual\137salary\047\054 \047remote\137employee\047\135\054\012  \133\047health\137plan\047\054 \047retirement\137percent\047\135\054\012  \133\047emergency\137name\047\054 \047emergency\137relationship\047\054 \047emergency\137phone\047\135\054\012  \133\047employee\137name\047\135\012\135\073\012\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\057\057 Helpers\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\012function fieldValue\050doc\054 name\051 \173\012  return String\050doc\056getField\050name\051\056valueAsString\051\056replace\050\057\136\134s\053\174\134s\053\044\057g\054 \047\047\051\073\012\175\012\012function isBlank\050value\051 \173\012  \057\057 Dropdowns start on a \042Select\042 placeholder\054 which counts as empty\056\012  return value \075\075\075 \047\047 \174\174 value \075\075\075 \047Select\047\073\012\175\012\012function showError\050doc\054 name\054 message\051 \173\012  app\056alert\050message\051\073\012  doc\056getField\050name\051\056setFocus\050\051\073\012  return false\073\012\175\012\012function isValidIsoDate\050text\051 \173\012  var parts \075 \057\136\050\134d\1734\175\051\055\050\134d\1732\175\051\055\050\134d\1732\175\051\044\057\056exec\050text\051\073\012  if \050\041parts\051 \173\012    return false\073\012  \175\012  var year \075 Number\050parts\1331\135\051\073\012  var month \075 Number\050parts\1332\135\051 \055 1\073\012  var day \075 Number\050parts\1333\135\051\073\012  var date \075 new Date\050year\054 month\054 day\051\073\012  \057\057 new Date\050\051 rolls invalid dates over \050Feb 30 \055\076 Mar 2\051\054 so compare back\056\012  return date\056getFullYear\050\051 \075\075\075 year \046\046 date\056getMonth\050\051 \075\075\075 month \046\046 date\056getDate\050\051 \075\075\075 day\073\012\175\012\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\057\057 Validation\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\012function validatePage\050doc\054 page\051 \173\012  var required \075 REQUIRED\137FIELDS\133page\135\073\012  for \050var i \075 0\073 i \074 required\056length\073 i\053\053\051 \173\012    if \050isBlank\050fieldValue\050doc\054 required\133i\135\051\051\051 \173\012      return showError\050doc\054 required\133i\135\054 \047Complete \047 \053 required\133i\135\051\073\012    \175\012  \175\012\012  if \050page \075\075\075 0 \046\046 \041\057\136\133\136\134s\100\135\053\100\133\136\134s\100\135\053\134\056\133\136\134s\100\135\053\044\057\056test\050fieldValue\050doc\054 \047email\047\051\051\051 \173\012    return showError\050doc\054 \047email\047\054 \047Enter a valid email\056\047\051\073\012  \175\012\012  if \050page \075\075\075 1\051 \173\012    var salary \075 Number\050fieldValue\050doc\054 \047annual\137salary\047\051\051\073\012    if \050\041isFinite\050salary\051 \174\174 salary \074\075 0 \174\174 salary \076 MAX\137SALARY\051 \173\012      return showError\050doc\054 \047annual\137salary\047\054 \047Enter a positive salary within 10 digits\056\047\051\073\012    \175\012    if \050\041isValidIsoDate\050fieldValue\050doc\054 \047start\137date\047\051\051\051 \173\012      return showError\050doc\054 \047start\137date\047\054 \047Use a valid YYYY\055MM\055DD date\056\047\051\073\012    \175\012    if \050fieldValue\050doc\054 \047remote\137employee\047\051 \075\075\075 \047Yes\047 \046\046 \041fieldValue\050doc\054 \047remote\137location\047\051\051 \173\012      return showError\050doc\054 \047remote\137location\047\054 \047Enter remote location\056\047\051\073\012    \175\012  \175\012\012  if \050page \075\075\075 2\051 \173\012    var percent \075 Number\050fieldValue\050doc\054 \047retirement\137percent\047\051\051\073\012    if \050\041isFinite\050percent\051 \174\174 percent \074 0 \174\174 percent \076 100\051 \173\012      return showError\050doc\054 \047retirement\137percent\047\054 \047Enter 0 to 100\056\047\051\073\012    \175\012  \175\012\012  if \050page \075\075\075 4 \046\046 fieldValue\050doc\054 \047acknowledged\047\051 \041\075\075 \047Yes\047\051 \173\012    return showError\050doc\054 \047acknowledged\047\054 \047Confirm acknowledgment\056\047\051\073\012  \175\012\012  return true\073\012\175\012\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\057\057 Calculations \050also used by the calculated fields\047 own scripts\051\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\012function monthlySalary\050doc\051 \173\012  var annual \075 Number\050fieldValue\050doc\054 \047annual\137salary\047\051\051\073\012  return annual \076 0 \077 \050annual \057 12\051\056toFixed\0502\051 \072 \047\047\073\012\175\012\012function monthlyRetirement\050doc\051 \173\012  var annual \075 Number\050fieldValue\050doc\054 \047annual\137salary\047\051\051\073\012  var percent \075 Number\050fieldValue\050doc\054 \047retirement\137percent\047\051\051\073\012  if \050\041\050annual \076 0\051 \174\174 \041\050percent \076\075 0 \046\046 percent \074\075 100\051\051 \173\012    return \047\047\073\012  \175\012  return \050annual \057 12 \052 percent \057 100\051\056toFixed\0502\051\073\012\175\012\012function reviewName\050doc\051 \173\012  return fieldValue\050doc\054 \047first\137name\047\051 \053 \047 \047 \053 fieldValue\050doc\054 \047last\137name\047\051\073\012\175\012\012function updateCalculatedFields\050doc\051 \173\012  doc\056getField\050\047monthly\137salary\047\051\056value \075 monthlySalary\050doc\051\073\012  doc\056getField\050\047retirement\137monthly\047\051\056value \075 monthlyRetirement\050doc\051\073\012  doc\056getField\050\047review\137name\047\051\056value \075 reviewName\050doc\051\073\012  doc\056getField\050\047review\137email\047\051\056value \075 fieldValue\050doc\054 \047email\047\051\073\012  doc\056getField\050\047review\137department\047\051\056value \075 fieldValue\050doc\054 \047department\047\051\073\012  doc\056getField\050\047review\137salary\047\051\056value \075 fieldValue\050doc\054 \047annual\137salary\047\051\073\012\175\012\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\057\057 Conditional field\072 remote location is only shown and required for \042Yes\042\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\012function toggleRemoteLocation\050doc\054 answer\051 \173\012  var location \075 doc\056getField\050\047remote\137location\047\051\073\012  var isRemote \075 answer \075\075\075 \047Yes\047\073\012  location\056display \075 isRemote \077 display\056visible \072 display\056hidden\073\012  location\056required \075 isRemote\073\012  if \050\041isRemote\051 \173\012    location\056value \075 \047\047\073\012  \175\012\175\012\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\057\057 Button actions\012\057\057 \055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\055\012\012function nextPage\050doc\054 page\051 \173\012  if \050validatePage\050doc\054 page\051\051 \173\012    updateCalculatedFields\050doc\051\073\012    doc\056pageNum \075 page \053 1\073\012  \175\012\175\012\012function submitAll\050doc\051 \173\012  \057\057 Check every page\054 not just the last one\072 the viewer\047s own page controls\012  \057\057 let people skip ahead without pressing Next\056\012  for \050var page \075 0\073 page \074 PAGE\137COUNT\073 page\053\053\051 \173\012    doc\056pageNum \075 page\073\012    if \050\041validatePage\050doc\054 page\051\051 \173\012      return\073\012    \175\012  \175\012  updateCalculatedFields\050doc\051\073\012  doc\056submitForm\050\173 cURL\072 SUBMIT\137URL\054 cSubmitAs\072 \047HTML\047\054 bEmpty\072 true \175\051\073\012\175\012\012function resetAll\050doc\051 \173\012  doc\056resetForm\050\051\073\012  toggleRemoteLocation\050doc\054 \047No\047\051\073\012  updateCalculatedFields\050doc\051\073\012  doc\056pageNum \075 0\073\012\175\012)
 >>
 endobj
 113 0 obj
@@ -2150,17 +2150,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 79
+/Length 83
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Next) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 51.00 11 Td (Next) Tj ET
 endstream
 endobj
 114 0 obj
@@ -2176,7 +2176,7 @@ endobj
 /P 7 0 R
 /A <<
 /S /JavaScript
-/JS (nextPage\050this\0540\051\073)
+/JS (nextPage\050this\054 0\051\073)
 >>
 /MK <<
 /CA (Next)
@@ -2193,17 +2193,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 83
+/Length 87
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Previous) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 38.66 11 Td (Previous) Tj ET
 endstream
 endobj
 116 0 obj
@@ -2219,7 +2219,7 @@ endobj
 /P 31 0 R
 /A <<
 /S /JavaScript
-/JS (this\056pageNum\0750\073)
+/JS (this\056pageNum \075 0\073)
 >>
 /MK <<
 /CA (Previous)
@@ -2236,17 +2236,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 79
+/Length 83
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Next) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 51.00 11 Td (Next) Tj ET
 endstream
 endobj
 118 0 obj
@@ -2262,7 +2262,7 @@ endobj
 /P 31 0 R
 /A <<
 /S /JavaScript
-/JS (nextPage\050this\0541\051\073)
+/JS (nextPage\050this\054 1\051\073)
 >>
 /MK <<
 /CA (Next)
@@ -2279,17 +2279,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 83
+/Length 87
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Previous) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 38.66 11 Td (Previous) Tj ET
 endstream
 endobj
 120 0 obj
@@ -2305,7 +2305,7 @@ endobj
 /P 60 0 R
 /A <<
 /S /JavaScript
-/JS (this\056pageNum\0751\073)
+/JS (this\056pageNum \075 1\073)
 >>
 /MK <<
 /CA (Previous)
@@ -2322,17 +2322,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 79
+/Length 83
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Next) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 51.00 11 Td (Next) Tj ET
 endstream
 endobj
 122 0 obj
@@ -2348,7 +2348,7 @@ endobj
 /P 60 0 R
 /A <<
 /S /JavaScript
-/JS (nextPage\050this\0542\051\073)
+/JS (nextPage\050this\054 2\051\073)
 >>
 /MK <<
 /CA (Next)
@@ -2365,17 +2365,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 83
+/Length 87
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Previous) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 38.66 11 Td (Previous) Tj ET
 endstream
 endobj
 124 0 obj
@@ -2391,7 +2391,7 @@ endobj
 /P 79 0 R
 /A <<
 /S /JavaScript
-/JS (this\056pageNum\0752\073)
+/JS (this\056pageNum \075 2\073)
 >>
 /MK <<
 /CA (Previous)
@@ -2408,17 +2408,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 79
+/Length 83
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Next) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 51.00 11 Td (Next) Tj ET
 endstream
 endobj
 126 0 obj
@@ -2434,7 +2434,7 @@ endobj
 /P 79 0 R
 /A <<
 /S /JavaScript
-/JS (nextPage\050this\0543\051\073)
+/JS (nextPage\050this\054 3\051\073)
 >>
 /MK <<
 /CA (Next)
@@ -2451,17 +2451,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 83
+/Length 87
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Previous) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 38.66 11 Td (Previous) Tj ET
 endstream
 endobj
 128 0 obj
@@ -2477,7 +2477,7 @@ endobj
 /P 93 0 R
 /A <<
 /S /JavaScript
-/JS (this\056pageNum\0753\073)
+/JS (this\056pageNum \075 3\073)
 >>
 /MK <<
 /CA (Previous)
@@ -2494,17 +2494,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 80
+/Length 84
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Reset) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 47.66 11 Td (Reset) Tj ET
 endstream
 endobj
 130 0 obj
@@ -2537,17 +2537,17 @@ endobj
 /BBox [ 0 0 128 32 ]
 /Resources <<
 /Font <<
-/Helv <<
+/HelvB <<
 /Type /Font
 /Subtype /Type1
-/BaseFont /Helvetica
+/BaseFont /Helvetica-Bold
 >>
 >>
 >>
-/Length 81
+/Length 85
 >>
 stream
-0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /Helv 12 Tf 12 11 Td (Submit) Tj ET
+0.09 0.21 0.36 rg 0 0 128 32 re f 1 1 1 rg BT /HelvB 12 Tf 43.67 11 Td (Submit) Tj ET
 endstream
 endobj
 132 0 obj
@@ -2605,116 +2605,116 @@ xref
 0000008094 00000 n 
 0000008440 00000 n 
 0000008539 00000 n 
-0000009271 00000 n 
-0000009359 00000 n 
-0000009645 00000 n 
-0000010052 00000 n 
-0000010445 00000 n 
-0000010544 00000 n 
-0000010887 00000 n 
-0000011233 00000 n 
-0000011332 00000 n 
-0000011702 00000 n 
-0000012048 00000 n 
-0000012147 00000 n 
-0000012577 00000 n 
-0000012970 00000 n 
-0000013069 00000 n 
-0000013432 00000 n 
-0000013778 00000 n 
-0000013877 00000 n 
-0000014439 00000 n 
-0000014785 00000 n 
-0000014884 00000 n 
-0000015352 00000 n 
-0000015741 00000 n 
-0000015840 00000 n 
-0000016210 00000 n 
-0000016556 00000 n 
-0000016655 00000 n 
-0000017526 00000 n 
-0000017570 00000 n 
-0000017678 00000 n 
-0000017791 00000 n 
-0000018056 00000 n 
-0000018465 00000 n 
-0000018858 00000 n 
-0000018957 00000 n 
-0000019317 00000 n 
-0000019587 00000 n 
-0000020231 00000 n 
-0000020501 00000 n 
-0000021144 00000 n 
-0000021412 00000 n 
-0000022055 00000 n 
-0000022415 00000 n 
-0000022794 00000 n 
-0000023140 00000 n 
-0000023239 00000 n 
-0000023930 00000 n 
-0000024276 00000 n 
-0000024375 00000 n 
-0000025202 00000 n 
-0000025460 00000 n 
-0000025811 00000 n 
-0000026157 00000 n 
-0000026256 00000 n 
-0000026692 00000 n 
-0000027085 00000 n 
-0000027184 00000 n 
-0000027537 00000 n 
-0000027883 00000 n 
-0000027982 00000 n 
-0000028338 00000 n 
-0000028684 00000 n 
-0000028783 00000 n 
-0000029549 00000 n 
-0000029834 00000 n 
-0000030342 00000 n 
-0000030688 00000 n 
-0000030787 00000 n 
-0000031224 00000 n 
-0000031570 00000 n 
-0000031669 00000 n 
-0000032123 00000 n 
-0000032471 00000 n 
-0000032571 00000 n 
-0000033030 00000 n 
-0000033378 00000 n 
-0000033478 00000 n 
-0000033847 00000 n 
-0000034195 00000 n 
-0000034295 00000 n 
-0000034684 00000 n 
-0000035609 00000 n 
-0000035923 00000 n 
-0000040786 00000 n 
-0000041058 00000 n 
-0000041296 00000 n 
-0000041572 00000 n 
-0000041817 00000 n 
-0000042089 00000 n 
-0000042328 00000 n 
-0000042604 00000 n 
-0000042849 00000 n 
-0000043121 00000 n 
-0000043360 00000 n 
-0000043636 00000 n 
-0000043881 00000 n 
-0000044153 00000 n 
-0000044392 00000 n 
-0000044668 00000 n 
-0000044913 00000 n 
-0000045186 00000 n 
-0000045428 00000 n 
-0000045702 00000 n 
+0000009147 00000 n 
+0000009235 00000 n 
+0000009521 00000 n 
+0000009928 00000 n 
+0000010321 00000 n 
+0000010420 00000 n 
+0000010763 00000 n 
+0000011109 00000 n 
+0000011208 00000 n 
+0000011578 00000 n 
+0000011924 00000 n 
+0000012023 00000 n 
+0000012453 00000 n 
+0000012846 00000 n 
+0000012945 00000 n 
+0000013308 00000 n 
+0000013654 00000 n 
+0000013753 00000 n 
+0000014215 00000 n 
+0000014561 00000 n 
+0000014660 00000 n 
+0000015143 00000 n 
+0000015532 00000 n 
+0000015631 00000 n 
+0000016001 00000 n 
+0000016347 00000 n 
+0000016446 00000 n 
+0000017118 00000 n 
+0000017162 00000 n 
+0000017270 00000 n 
+0000017383 00000 n 
+0000017648 00000 n 
+0000018057 00000 n 
+0000018450 00000 n 
+0000018549 00000 n 
+0000018909 00000 n 
+0000019179 00000 n 
+0000019823 00000 n 
+0000020093 00000 n 
+0000020736 00000 n 
+0000021004 00000 n 
+0000021647 00000 n 
+0000022007 00000 n 
+0000022386 00000 n 
+0000022732 00000 n 
+0000022831 00000 n 
+0000023305 00000 n 
+0000023651 00000 n 
+0000023750 00000 n 
+0000024377 00000 n 
+0000024635 00000 n 
+0000024986 00000 n 
+0000025332 00000 n 
+0000025431 00000 n 
+0000025867 00000 n 
+0000026260 00000 n 
+0000026359 00000 n 
+0000026712 00000 n 
+0000027058 00000 n 
+0000027157 00000 n 
+0000027513 00000 n 
+0000027859 00000 n 
+0000027958 00000 n 
+0000028522 00000 n 
+0000028807 00000 n 
+0000029243 00000 n 
+0000029589 00000 n 
+0000029688 00000 n 
+0000030135 00000 n 
+0000030481 00000 n 
+0000030580 00000 n 
+0000031044 00000 n 
+0000031392 00000 n 
+0000031492 00000 n 
+0000031961 00000 n 
+0000032309 00000 n 
+0000032409 00000 n 
+0000032778 00000 n 
+0000033126 00000 n 
+0000033226 00000 n 
+0000033615 00000 n 
+0000034247 00000 n 
+0000034561 00000 n 
+0000045929 00000 n 
+0000046211 00000 n 
+0000046450 00000 n 
+0000046736 00000 n 
+0000046983 00000 n 
+0000047265 00000 n 
+0000047505 00000 n 
+0000047791 00000 n 
+0000048038 00000 n 
+0000048320 00000 n 
+0000048560 00000 n 
+0000048846 00000 n 
+0000049093 00000 n 
+0000049375 00000 n 
+0000049615 00000 n 
+0000049901 00000 n 
+0000050148 00000 n 
+0000050431 00000 n 
+0000050673 00000 n 
+0000050957 00000 n 
 trailer
 <<
 /Size 133
 /Root 1 0 R
 /Info 111 0 R
-/ID [ <b1fb8f78b73ab69532043293777173cd> <b1fb8f78b73ab69532043293777173cd> ]
+/ID [ <dfecc9fb74902ae5709929b0fb83c91b> <dfecc9fb74902ae5709929b0fb83c91b> ]
 >>
 startxref
-45948
+51203
 %%EOF
